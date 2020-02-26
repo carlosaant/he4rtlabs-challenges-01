@@ -10,7 +10,9 @@
 .content{
 	width: 100%;
 	display: flex;
-  	justify-content: center;
+	flex-direction: row;
+	max-width: 900px;
+  	/*justify-content: center;*/
 }
 
 header{
@@ -29,18 +31,44 @@ header{
 	width: 350px;
 }
 
-.box-form{
+.box-info{
+	flex: 1;
 	margin-top: 20px;
 	box-shadow: 1px 2px 10px 1px grey;
 	/*display: block;*/
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	border-radius: 10px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 
 	font-family: 'Open Sans';
+}
+
+.box-form{
+	flex: 1;
+	margin: 40px;
+	box-shadow: 1px 2px 10px 1px grey;
+	/*display: block;*/
+	width: 500px;
+	/*height: 400px;*/
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Open Sans';
+}
+
+.box-form p{
+	color: #666;
+	margin: 5px;
+}
+
+.box-form p:nth-of-type(1)::first-letter{
+	font-size: 200%;
+}
+
+.box-form p:first-child {
+  text-align: center;
 }
 
 .campo {
@@ -64,6 +92,7 @@ header{
 	background: #cc99ff;
 	font-weight: bold;
 	color: white;
+	margin: 0 auto;
 }
 
 .campo input::placeholder {
@@ -72,6 +101,7 @@ header{
 }
 
 .campo label {
+	text-align: center;
 	margin-bottom: 0.2em;
 	color: #666;
 	display: block;
