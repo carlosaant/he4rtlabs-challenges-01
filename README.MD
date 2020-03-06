@@ -67,3 +67,5 @@ Este desafio foi desenvolvido pelo grupo He4rt Developers para uso livre da comu
 ## Autor
 
 - Daniel Reis (danielhe4rt) - Back-end Developer && He4rt Developers Leader - [Portfólio](https://danielheart.dev) - [Twitter](https://twitter.com/danielhe4rt)
+
+- Antonio Carlos - Participação no projeto, desenvolvimento da versão proposta no desafio.
