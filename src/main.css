@@ -48,13 +48,17 @@ header{
 	flex: 1;
 	margin: 40px;
 	box-shadow: 1px 2px 10px 1px grey;
-	/*display: block;*/
+	display: flex;
 	width: 500px;
 	/*height: 400px;*/
 	border-radius: 10px;
 	justify-content: center;
 	align-items: center;
 	font-family: 'Open Sans';
+}
+
+.box-form:first-child{
+	flex-direction: column;
 }
 
 .box-form p{
@@ -73,7 +77,6 @@ header{
 
 .box-form p:first-child {
   text-align: center;
-  margin-top: 40px;
 }
 
 .box-form label:first-child {

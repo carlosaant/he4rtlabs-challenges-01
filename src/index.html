@@ -24,11 +24,16 @@
           </p>
         </div>
 
-        <div class="box-form">
+        <div class="box-form" id="formfree">
             <form>
               <div class="campo">
-                <label for="tempoinvestido">TEMPO INVESTIDO NO PROJETO</label>
-                  <input type="text" name="tempoinvestido" placeholder="Tempo investido">
+                <label for="valordoproejto">Valor do Projeto</label>
+                  <input type="text" id="valorProjeto" name="valordoproejto" placeholder="Valor do Projeto">
+                  <!--    <a href="#popup1">?</a> -->
+              </div>
+              <div class="campo">
+                <label for="tempoinvestido">Tempo Investido no Projeto</label>
+                  <input type="text" id="tempoInvestido" name="tempoinvestido" placeholder="Tempo investido">
                   <!--    <a href="#popup1">?</a> -->
               </div>
 
@@ -43,15 +48,15 @@
               </div> -->
 
               <div class="campo">
-                <label for="diastrabalhados">DIAS TRABALHADOS</label>
-                <input type="text" name="diastrabalhados" placeholder="Dias trabalhados">
+                <label for="diastrabalhados">Dias Trabalhados</label>
+                <input type="text" id="diasTrabalhados" name="diastrabalhados" placeholder="Dias trabalhados">
               </div>
               <div class="campo">
-                <label for="diasferiasprojeto">DIAS DE FÉRIAS DO PROJETO</label>
-                <input type="text" name="diasferiasprojeto" placeholder="Dias férias">
+                <label for="diasferiasprojeto">Dias de Férias do Projeto</label>
+                <input type="text" id="diasFerias" name="diasferiasprojeto" placeholder="Dias férias">
               </div>
               <div class="campo">
-                <input type="button" value="calcular">
+                <input type="button" value="calcular" onclick="calculahora()">
               </div>
             </form>
         </div>
